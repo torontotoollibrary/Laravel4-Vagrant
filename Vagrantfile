@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
-    config.vm.define :re-source do |lv4_config|
+    config.vm.define :re_source do |lv4_config|
         lv4_config.vm.box = "precise32"
         lv4_config.vm.box_url = "http://files.vagrantup.com/precise32.box"
         lv4_config.ssh.forward_agent = true
