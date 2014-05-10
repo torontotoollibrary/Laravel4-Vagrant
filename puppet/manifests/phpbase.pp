@@ -25,7 +25,7 @@ include beanstalkd
 include redis
 include memcached
 
-#include laravel_app
+include laravel_app
 
 #class { 'postgresql::server':
 #  config_hash => {
